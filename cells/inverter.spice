@@ -1,4 +1,4 @@
-.subckt not1 a vdd vss z
+.subckt inverter a vdd vss z
 
 xm01 z a vdd vdd sky130_fd_pr__pfet_01v8
 + l=0.15 w=1.26
@@ -13,4 +13,4 @@ xm02 z a vss vss sky130_fd_pr__nfet_01v8
 c3 a vss 0.385f
 c2 z vss 0.576f
 
-.ends not1
+.ends inverter
