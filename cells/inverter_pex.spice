@@ -2,14 +2,14 @@
 * NOTE: CharLib finds the cell by grabbing the first line that mentions the
 * cell name next to the SUBCKT keyword, so keep those words out of comments.
 
-.subckt inverter_pex a z vdd vss
-X0 z a vss vss sky130_fd_pr__nfet_01v8 ad=0.147 pd=1.54 as=0.147 ps=1.54 w=0.42 l=0.15
+.subckt inverter IN OUT VDD VSS
+X1 OUT IN VSS VSS sky130_fd_pr__nfet_01v8 ad=0.147 pd=1.54 as=0.147 ps=1.54 w=0.42 l=0.15
 **devattr s=5880,308 d=5880,308
-X1 z a vdd vdd sky130_fd_pr__pfet_01v8 ad=0.441 pd=3.22 as=0.441 ps=3.22 w=1.26 l=0.15
+X0 OUT IN VDD VDD sky130_fd_pr__pfet_01v8 ad=0.441 pd=3.22 as=0.441 ps=3.22 w=1.26 l=0.15
 **devattr s=17640,644 d=17640,644
-C0 z a 0.03192f
-C1 vdd a 0.11533f
-C2 vdd z 0.12757f
-C3 z vss 0.3555f
-C4 vdd vss 0.64171f
+C0 OUT IN 0.03192f
+C1 VDD IN 0.11533f
+C2 VDD OUT 0.12757f
+C3 OUT VSS 0.3555f
+C4 VDD VSS 0.64171f
 .ends
