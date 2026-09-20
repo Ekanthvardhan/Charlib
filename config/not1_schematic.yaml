@@ -13,10 +13,10 @@ settings:
 
 cells:
   inverter:
-    netlist: "cells/inverter.spice"          # pre-layout (schematic) netlist
+    netlist: "cells/not1.spice"          # pre-layout (schematic) netlist
     # Physical layout area in um^2 (not derivable from SPICE). Placeholder is
     # the sky130 HD inv_1 std-cell footprint; set to your real layout area.
-    area: 3.7536
+    area: 6.12
     models:
       - "config/mc_switches.spice"
       - "sky130A/libs.tech/ngspice/sky130.lib.spice tt"
