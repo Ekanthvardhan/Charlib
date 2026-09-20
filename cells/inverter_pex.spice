@@ -2,7 +2,7 @@
 * NOTE: CharLib finds the cell by grabbing the first line that mentions the
 * cell name next to the SUBCKT keyword, so keep those words out of comments.
 
-.subckt inverter_pex a vdd vss z
+.subckt inverter_pex a z vdd vss
 X0 z a vss vss sky130_fd_pr__nfet_01v8 ad=0.147 pd=1.54 as=0.147 ps=1.54 w=0.42 l=0.15
 **devattr s=5880,308 d=5880,308
 X1 z a vdd vdd sky130_fd_pr__pfet_01v8 ad=0.441 pd=3.22 as=0.441 ps=3.22 w=1.26 l=0.15
