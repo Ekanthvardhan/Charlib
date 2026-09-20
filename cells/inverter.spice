@@ -1,4 +1,4 @@
-.subckt inverter a vdd vss z
+.subckt inverter a z vdd vss
 
 xm01 z a vdd vdd sky130_fd_pr__pfet_01v8
 + l=0.15 w=1.26
