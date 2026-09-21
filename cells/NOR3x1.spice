@@ -1,37 +1,33 @@
-.subckt NOR3x1 a b c y vdd vss
+.subckt NOR3x1 A B C Y VDD VSS
 
-
-xm01 n1 a vdd vdd sky130_fd_pr__pfet_01v8
+XM01 N1 A VDD VDD sky130_fd_pr__pfet_01v8
 + l=0.15 w=8.8
 + as=2.64 ad=2.64
 + ps=18.20 pd=18.20
 
-xm02 n2 b n1 n1 sky130_fd_pr__pfet_01v8
+XM02 N2 B N1 N1 sky130_fd_pr__pfet_01v8
 + l=0.15 w=8.8
 + as=2.64 ad=2.64
 + ps=18.20 pd=18.20
 
-xm03 y c n2 n2 sky130_fd_pr__pfet_01v8
+XM03 Y C N2 N2 sky130_fd_pr__pfet_01v8
 + l=0.15 w=8.8
 + as=2.64 ad=2.64
 + ps=18.20 pd=18.20
 
-
-
-xm04 y a vss vss sky130_fd_pr__nfet_01v8
+XM04 Y A VSS VSS sky130_fd_pr__nfet_01v8
 + l=0.15 w=1.92
 + as=0.576 ad=0.576
 + ps=4.44 pd=4.44
 
-xm05 y b vss vss sky130_fd_pr__nfet_01v8
+XM05 Y B VSS VSS sky130_fd_pr__nfet_01v8
 + l=0.15 w=1.92
 + as=0.576 ad=0.576
 + ps=4.44 pd=4.44
 
-xm06 y c vss vss sky130_fd_pr__nfet_01v8
+XM06 Y C VSS VSS sky130_fd_pr__nfet_01v8
 + l=0.15 w=1.92
 + as=0.576 ad=0.576
 + ps=4.44 pd=4.44
-
 
 .ends NOR3x1
