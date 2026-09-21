@@ -1,5 +1,5 @@
 * NGSPICE file created from NOR_GATE3x1.ext - technology: sky130A
-.subckt NOR3x1_pex a b c y vdd vss
+.subckt NOR3x1 a b c y vdd vss
 X0 y c w_14_248 w_14_248 sky130_fd_pr__pfet_01v8 ad=0.1925 pd=1.45 as=0.24063 ps=1.8125 w=1.1 l=0.15
 X1 vss a a_260_60 vss sky130_fd_pr__nfet_01v8 ad=0.126 pd=1.245 as=0.084 ps=0.83 w=0.48 l=0.15
 X2 w_14_248 a y w_14_248 sky130_fd_pr__pfet_01v8 ad=0.24063 pd=1.8125 as=0.1925 ps=1.45 w=1.1 l=0.15
@@ -75,4 +75,4 @@ C35 a_2460_60 vss 0.24428f
 C36 a_1360_60 vss 0.2414f
 C37 a_260_60 vss 0.24539f
 C38 w_14_248 vss 3.51706f
-.ends NOR3x1_pex
+.ends NOR3x1
