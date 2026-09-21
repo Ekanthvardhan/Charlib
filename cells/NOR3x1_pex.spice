@@ -1,78 +1,76 @@
 * NGSPICE file created from NOR_GATE3x1.ext - technology: sky130A
-.subckt NOR3x1 a b c y vdd vss
-X0 y c w_14_248 w_14_248 sky130_fd_pr__pfet_01v8 ad=0.1925 pd=1.45 as=0.24063 ps=1.8125 w=1.1 l=0.15
-X1 vss a a_260_60 vss sky130_fd_pr__nfet_01v8 ad=0.126 pd=1.245 as=0.084 ps=0.83 w=0.48 l=0.15
-X2 w_14_248 a y w_14_248 sky130_fd_pr__pfet_01v8 ad=0.24063 pd=1.8125 as=0.1925 ps=1.45 w=1.1 l=0.15
-X3 vss c a_2460_60 vss sky130_fd_pr__nfet_01v8 ad=0.126 pd=1.245 as=0.084 ps=0.83 w=0.48 l=0.15
-X4 vss b a_1360_60 vss sky130_fd_pr__nfet_01v8 ad=0.126 pd=1.245 as=0.084 ps=0.83 w=0.48 l=0.15
-X5 y a w_14_248 w_14_248 sky130_fd_pr__pfet_01v8 ad=0.1925 pd=1.45 as=0.24063 ps=1.8125 w=1.1 l=0.15
-X6 y b w_14_248 w_14_248 sky130_fd_pr__pfet_01v8 ad=0.1925 pd=1.45 as=0.24063 ps=1.8125 w=1.1 l=0.15
-X7 y c w_14_248 w_14_248 sky130_fd_pr__pfet_01v8 ad=0.1925 pd=1.45 as=0.24063 ps=1.8125 w=1.1 l=0.15
-X8 y c w_14_248 w_14_248 sky130_fd_pr__pfet_01v8 ad=0.1925 pd=1.45 as=0.24063 ps=1.8125 w=1.1 l=0.15
-X9 w_14_248 b y w_14_248 sky130_fd_pr__pfet_01v8 ad=0.24063 pd=1.8125 as=0.1925 ps=1.45 w=1.1 l=0.15
-X10 a_260_60 a vss vss sky130_fd_pr__nfet_01v8 ad=0.084 pd=0.83 as=0.126 ps=1.245 w=0.48 l=0.15
-X11 w_14_248 c y w_14_248 sky130_fd_pr__pfet_01v8 ad=0.24063 pd=1.8125 as=0.1925 ps=1.45 w=1.1 l=0.15
-X12 a_2460_60 c vss vss sky130_fd_pr__nfet_01v8 ad=0.084 pd=0.83 as=0.126 ps=1.245 w=0.48 l=0.15
-X13 y a w_14_248 w_14_248 sky130_fd_pr__pfet_01v8 ad=0.1925 pd=1.45 as=0.24063 ps=1.8125 w=1.1 l=0.15
-X14 a_1360_60 b vss vss sky130_fd_pr__nfet_01v8 ad=0.084 pd=0.83 as=0.126 ps=1.245 w=0.48 l=0.15
-X15 w_14_248 b y w_14_248 sky130_fd_pr__pfet_01v8 ad=0.24063 pd=1.8125 as=0.1925 ps=1.45 w=1.1 l=0.15
-X16 w_14_248 b y w_14_248 sky130_fd_pr__pfet_01v8 ad=0.24063 pd=1.8125 as=0.1925 ps=1.45 w=1.1 l=0.15
-X17 w_14_248 a y w_14_248 sky130_fd_pr__pfet_01v8 ad=0.24063 pd=1.8125 as=0.1925 ps=1.45 w=1.1 l=0.15
-X18 vss a a_260_60 vss sky130_fd_pr__nfet_01v8 ad=0.126 pd=1.245 as=0.084 ps=0.83 w=0.48 l=0.15
-X19 vss c a_2460_60 vss sky130_fd_pr__nfet_01v8 ad=0.126 pd=1.245 as=0.084 ps=0.83 w=0.48 l=0.15
-X20 y b w_14_248 w_14_248 sky130_fd_pr__pfet_01v8 ad=0.1925 pd=1.45 as=0.24063 ps=1.8125 w=1.1 l=0.15
-X21 y c w_14_248 w_14_248 sky130_fd_pr__pfet_01v8 ad=0.1925 pd=1.45 as=0.24063 ps=1.8125 w=1.1 l=0.15
-X22 vss b a_1360_60 vss sky130_fd_pr__nfet_01v8 ad=0.126 pd=1.245 as=0.084 ps=0.83 w=0.48 l=0.15
-X23 w_14_248 a y w_14_248 sky130_fd_pr__pfet_01v8 ad=0.24063 pd=1.8125 as=0.1925 ps=1.45 w=1.1 l=0.15
-X24 w_14_248 c y w_14_248 sky130_fd_pr__pfet_01v8 ad=0.24063 pd=1.8125 as=0.1925 ps=1.45 w=1.1 l=0.15
-X25 y a w_14_248 w_14_248 sky130_fd_pr__pfet_01v8 ad=0.1925 pd=1.45 as=0.24063 ps=1.8125 w=1.1 l=0.15
-X26 y b w_14_248 w_14_248 sky130_fd_pr__pfet_01v8 ad=0.1925 pd=1.45 as=0.24063 ps=1.8125 w=1.1 l=0.15
-X27 a_260_60 a vss vss sky130_fd_pr__nfet_01v8 ad=0.084 pd=0.83 as=0.126 ps=1.245 w=0.48 l=0.15
-X28 a_2460_60 c vss vss sky130_fd_pr__nfet_01v8 ad=0.084 pd=0.83 as=0.126 ps=1.245 w=0.48 l=0.15
-X29 w_14_248 a y w_14_248 sky130_fd_pr__pfet_01v8 ad=0.24063 pd=1.8125 as=0.1925 ps=1.45 w=1.1 l=0.15
-X30 w_14_248 b y w_14_248 sky130_fd_pr__pfet_01v8 ad=0.24063 pd=1.8125 as=0.1925 ps=1.45 w=1.1 l=0.15
-X31 w_14_248 c y w_14_248 sky130_fd_pr__pfet_01v8 ad=0.24063 pd=1.8125 as=0.1925 ps=1.45 w=1.1 l=0.15
-X32 a_1360_60 b vss vss sky130_fd_pr__nfet_01v8 ad=0.084 pd=0.83 as=0.126 ps=1.245 w=0.48 l=0.15
-X33 w_14_248 c y w_14_248 sky130_fd_pr__pfet_01v8 ad=0.24063 pd=1.8125 as=0.1925 ps=1.45 w=1.1 l=0.15
-X34 y a w_14_248 w_14_248 sky130_fd_pr__pfet_01v8 ad=0.1925 pd=1.45 as=0.24063 ps=1.8125 w=1.1 l=0.15
-X35 y b w_14_248 w_14_248 sky130_fd_pr__pfet_01v8 ad=0.1925 pd=1.45 as=0.24063 ps=1.8125 w=1.1 l=0.15
-C0 vdd w_14_248 0.62848f
-C1 y w_14_248 2.39187f
-C2 b c 0.00785f
-C3 w_14_248 a 0.58931f
-C4 a_260_60 w_14_248 0
-C5 vdd c 0.04288f
-C6 a_2460_60 a_1360_60 0.00202f
-C7 y c 0.23395f
-C8 b a_1360_60 0.06772f
-C9 vdd a_1360_60 0.0026f
-C10 y a_1360_60 0.10231f
-C11 a_1360_60 a 0
-C12 b a_2460_60 0
-C13 a_260_60 a_1360_60 0.00202f
-C14 a_2460_60 vdd 0.0026f
-C15 y a_2460_60 0.10231f
-C16 b vdd 0.04345f
-C17 y b 0.23396f
-C18 b a 0.00785f
-C19 b a_260_60 0
-C20 y vdd 0.13181f
-C21 vdd a 0.04418f
-C22 y a 0.21655f
-C23 a_260_60 vdd 0.0026f
-C24 y a_260_60 0.10122f
-C25 a_260_60 a 0.06772f
-C26 c w_14_248 0.58672f
-C27 c a_1360_60 0
-C28 a_2460_60 c 0.06772f
-C29 b w_14_248 0.59165f
-C30 vdd vss 1.11043f
-C31 y vss 0.5891f
-C32 c vss 0.84004f
-C33 b vss 0.86656f
-C34 a vss 0.87648f
-C35 a_2460_60 vss 0.24428f
-C36 a_1360_60 vss 0.2414f
-C37 a_260_60 vss 0.24539f
-C38 w_14_248 vss 3.51706f
+.subckt NOR3x1 A B C Y VDD VSS
+
+X0 Y C w_14_248 w_14_248 sky130_fd_pr__pfet_01v8 ad=0.1925 pd=1.45 as=0.24063 ps=1.8125 w=1.1 l=0.15
+X1 VSS A a_260_60 VSS sky130_fd_pr__nfet_01v8 ad=0.126 pd=1.245 as=0.084 ps=0.83 w=0.48 l=0.15
+X2 w_14_248 A Y w_14_248 sky130_fd_pr__pfet_01v8 ad=0.24063 pd=1.8125 as=0.1925 ps=1.45 w=1.1 l=0.15
+X3 VSS C a_2460_60 VSS sky130_fd_pr__nfet_01v8 ad=0.126 pd=1.245 as=0.084 ps=0.83 w=0.48 l=0.15
+X4 VSS B a_1360_60 VSS sky130_fd_pr__nfet_01v8 ad=0.126 pd=1.245 as=0.084 ps=0.83 w=0.48 l=0.15
+X5 Y A w_14_248 w_14_248 sky130_fd_pr__pfet_01v8 ad=0.1925 pd=1.45 as=0.24063 ps=1.8125 w=1.1 l=0.15
+X6 Y B w_14_248 w_14_248 sky130_fd_pr__pfet_01v8 ad=0.1925 pd=1.45 as=0.24063 ps=1.8125 w=1.1 l=0.15
+X7 Y C w_14_248 w_14_248 sky130_fd_pr__pfet_01v8 ad=0.1925 pd=1.45 as=0.24063 ps=1.8125 w=1.1 l=0.15
+X8  Y C w_14_248# w_14_248 sky130_fd_pr__pfet_01v8 ad=0.1925 pd=1.45 as=0.24063 ps=1.8125 w=1.1 l=0.15
+X9  w_14_248 B Y w_14_248 sky130_fd_pr__pfet_01v8 ad=0.24063 pd=1.8125 as=0.1925 ps=1.45 w=1.1 l=0.15
+X10 a_260_60 A VSS VSS sky130_fd_pr__nfet_01v8 ad=0.084 pd=0.83 as=0.126 ps=1.245 w=0.48 l=0.15
+X11 w_14_248 C Y w_14_248 sky130_fd_pr__pfet_01v8 ad=0.24063 pd=1.8125 as=0.1925 ps=1.45 w=1.1 l=0.15
+X12 a_2460_60 C VSS VSS sky130_fd_pr__nfet_01v8 ad=0.084 pd=0.83 as=0.126 ps=1.245 w=0.48 l=0.15
+X13 Y A w_14_248 w_14_248 sky130_fd_pr__pfet_01v8 ad=0.1925 pd=1.45 as=0.24063 ps=1.8125 w=1.1 l=0.15
+X14 a_1360_60 B VSS VSS sky130_fd_pr__nfet_01v8 ad=0.084 pd=0.83 as=0.126 ps=1.245 w=0.48 l=0.15
+X15 w_14_248 B Y w_14_248 sky130_fd_pr__pfet_01v8 ad=0.24063 pd=1.8125 as=0.1925 ps=1.45 w=1.1 l=0.15
+X16 w_14_248 B Y w_14_248 sky130_fd_pr__pfet_01v8 ad=0.24063 pd=1.8125 as=0.1925 ps=1.45 w=1.1 l=0.15
+X17 w_14_248 A Y w_14_248 sky130_fd_pr__pfet_01v8 ad=0.24063 pd=1.8125 as=0.1925 ps=1.45 w=1.1 l=0.15
+X18 VSS A a_260_60 VSS sky130_fd_pr__nfet_01v8 ad=0.126 pd=1.245 as=0.084 ps=0.83 w=0.48 l=0.15
+X19 VSS C a_2460_60 VSS sky130_fd_pr__nfet_01v8 ad=0.126 pd=1.245 as=0.084 ps=0.83 w=0.48 l=0.15
+X20 Y B w_14_248 w_14_248 sky130_fd_pr__pfet_01v8 ad=0.1925 pd=1.45 as=0.24063 ps=1.8125 w=1.1 l=0.15
+X21 Y C w_14_248 w_14_248 sky130_fd_pr__pfet_01v8 ad=0.1925 pd=1.45 as=0.24063 ps=1.8125 w=1.1 l=0.15
+X22 VSS B a_1360_60 VSS sky130_fd_pr__nfet_01v8 ad=0.126 pd=1.245 as=0.084 ps=0.83 w=0.48 l=0.15
+X23 w_14_248 A Y w_14_248 sky130_fd_pr__pfet_01v8 ad=0.24063 pd=1.8125 as=0.1925 ps=1.45 w=1.1 l=0.15
+X24 w_14_248 C Y w_14_248 sky130_fd_pr__pfet_01v8 ad=0.24063 pd=1.8125 as=0.1925 ps=1.45 w=1.1 l=0.15
+X25 Y A w_14_248 w_14_248 sky130_fd_pr__pfet_01v8 ad=0.1925 pd=1.45 as=0.24063 ps=1.8125 w=1.1 l=0.15
+X26 Y B w_14_248 w_14_248 sky130_fd_pr__pfet_01v8 ad=0.1925 pd=1.45 as=0.24063 ps=1.8125 w=1.1 l=0.15
+X27 a_260_60 A VSS VSS sky130_fd_pr__nfet_01v8 ad=0.084 pd=0.83 as=0.126 ps=1.245 w=0.48 l=0.15
+X28 a_2460_60 C VSS VSS sky130_fd_pr__nfet_01v8 ad=0.084 pd=0.83 as=0.126 ps=1.245 w=0.48 l=0.15
+X29 w_14_248 A Y w_14_248 sky130_fd_pr__pfet_01v8 ad=0.24063 pd=1.8125 as=0.1925 ps=1.45 w=1.1 l=0.15
+X30 w_14_248 B Y w_14_248 sky130_fd_pr__pfet_01v8 ad=0.24063 pd=1.8125 as=0.1925 ps=1.45 w=1.1 l=0.15
+X31 w_14_248 C Y w_14_248 sky130_fd_pr__pfet_01v8 ad=0.24063 pd=1.8125 as=0.1925 ps=1.45 w=1.1 l=0.15
+X32 a_1360_60 B VSS VSS sky130_fd_pr__nfet_01v8 ad=0.084 pd=0.83 as=0.126 ps=1.245 w=0.48 l=0.15
+X33 w_14_248 C Y w_14_248 sky130_fd_pr__pfet_01v8 ad=0.24063 pd=1.8125 as=0.1925 ps=1.45 w=1.1 l=0.15
+X34 Y A w_14_248 w_14_248 sky130_fd_pr__pfet_01v8 ad=0.1925 pd=1.45 as=0.24063 ps=1.8125 w=1.1 l=0.15
+X35 Y B w_14_248 w_14_248 sky130_fd_pr__pfet_01v8 ad=0.1925 pd=1.45 as=0.24063 ps=1.8125 w=1.1 l=0.15
+C0 VDD w_14_248 0.62848f
+C1 Y w_14_248 2.39187f
+C2 B C 0.00785f
+C3 w_14_248 A 0.58931f
+C5 VDD C 0.04288f
+C7 Y C 0.23395f
+C8 B a_1360_60 0.06772f
+C9 VDD a_1360_60 0.0026f
+C10 Y a_1360_60 0.10231f
+C11 a_1360_60 A 0
+C12 B a_2460_60 0
+C14 a_2460_60 VDD 0.0026f
+C15 Y a_2460_60 0.10231f
+C16 B VDD 0.04345f
+C17 Y B 0.23396f
+C18 B A 0.00785f
+C20 Y VDD 0.13181f
+C21 VDD A 0.04418f
+C22 Y A 0.21655f
+C23 a_260_60 VDD 0.0026f
+C24 Y a_260_60 0.10122f
+C25 a_260_60 A 0.06772f
+C26 C w_14_248 0.58672f
+C27 C a_1360_60 0
+C28 a_2460_60 C 0.06772f
+C29 B w_14_248 0.59165f
+C30 VDD VSS 1.11043f
+C31 Y VSS 0.5891f
+C32 C VSS 0.84004f
+C33 B VSS 0.86656f
+C34 A VSS 0.87648f
+C35 a_2460_60 VSS 0.24428f
+C36 a_1360_60 VSS 0.2414f
+C37 a_260_60 VSS 0.24539f
+C38 w_14_248 VSS 3.51706f
+
 .ends NOR3x1
